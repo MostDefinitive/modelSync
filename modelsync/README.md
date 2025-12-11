@@ -21,3 +21,8 @@ This is the foundation for a full commercial product.
 4. Validate against sample payor extracts
 5. Prepare for Epic customer pilot
 
+## Run locally
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python main.py

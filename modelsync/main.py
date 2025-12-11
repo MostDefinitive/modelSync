@@ -1,6 +1,8 @@
 import pandas as pd
-from engine.reconcile import reconcile
-from engine.export import export_outputs
+from modelsync.engine.reconcile import reconcile
+from modelsync.engine.state_machine import determine_state
+from modelsync.engine.export import export_outputs
+
 
 def main():
     reg = pd.read_csv("data/registry.csv")
