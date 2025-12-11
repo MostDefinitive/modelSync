@@ -1,0 +1,2 @@
+PatientID,ICD,Status,ProviderNPI,HCC,has_pl,has_enc,has_evidence,new_state
+1001,I509,Active,555001,HCC85,False,False,False,Gap
